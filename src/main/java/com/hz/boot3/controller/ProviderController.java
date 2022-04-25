@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/providerddd")
 public class ProviderController {
     @Autowired
-    private ProviderService providerService;
+    private ProviderService providerService;0
 
     @RequestMapping(value = "/saveProvider",method = RequestMethod.POST)
     @ResponseBody
