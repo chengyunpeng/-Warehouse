@@ -20,7 +20,7 @@ public class ProviderController {
     @RequestMapping(value = "/saveProvider",method = RequestMethod.POST)
     @ResponseBody
     public ResultJson saveProvider(Provider provider){
-        int i = providerService.saveProvider(provider);sss
+        int i = providerService.saveProvider(provider);
         return new ResultJson(i);
     }
 
